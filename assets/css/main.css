@@ -95,14 +95,18 @@ font-size: 10px;
 .section-title h2 { font-size: 26px; }
 }
 @media (max-width: 575px) {
-.hero h1 { font-size: 32px !important; }
-.section-title h2 { font-size: 24px; }
+.hero h1 { font-size: 28px !important; }
+.section-title h2 { font-size: 22px; padding: 0 16px; }
 .blog-card .card-title, .blog .card-title { font-size: 16px; }
 .blog-card .card-text, .blog .card-text { font-size: 14px; }
 .blog-card .meta, .blog .meta { font-size: 12px; }
 .btn { font-size: 14px; min-height: 44px; }
 .faq .faq-item .faq-question { font-size: 15px; }
 .faq .faq-item .faq-answer { font-size: 15px; }
+.page-title h1 { font-size: 26px !important; padding: 0 16px; }
+.page-title p.lead { font-size: 15px; padding: 0 16px; }
+}
+
 }
 .btn-primary {
 background-color: #1a2035 !important;
@@ -810,11 +814,16 @@ z-index: 2;
 }
 @media (max-width: 575px) {
 .section-title h2 {
-font-size: 28px;
+font-size: 22px;
 margin-bottom: 15px;
+padding: 0 16px;
 }
 .section-title span {
-font-size: 38px;
+font-size: 30px;
+}
+.section-title {
+padding: 20px 0;
+margin-bottom: 20px;
 }
 }
 .hero {
@@ -1008,6 +1017,25 @@ color: var(--default-color);
 }
 .call-to-action p {
 color: var(--default-color);
+}
+@media (max-width: 575px) {
+.call-to-action {
+padding: 60px 0;
+}
+.call-to-action h3 {
+font-size: 22px !important;
+padding: 0 8px;
+}
+.call-to-action p,
+.call-to-action .fs-5 {
+font-size: 16px !important;
+padding: 0 8px;
+line-height: 1.6;
+}
+.call-to-action .btn {
+font-size: 14px;
+padding: 10px 20px;
+}
 }
 .call-to-action .cta-btn {
 font-family: var(--heading-font);
