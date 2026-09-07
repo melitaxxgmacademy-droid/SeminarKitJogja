@@ -25,7 +25,7 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="preload" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css"></noscript>
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link rel="preload" href="assets/vendor/aos/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="assets/vendor/aos/aos.css"></noscript>
 
   <!-- Main CSS File -->
@@ -104,7 +104,7 @@
 <body class="starter-page-page">
 <header class="header d-flex align-items-center fixed-top" id="header">
 <div class="container position-relative d-flex align-items-center justify-content-between">
-<a class="logo d-flex align-items-center ms-3 ms-lg-5" href="index.html" style="flex-shrink:0; margin-left: 5vw;"><div style="background-color: #ffffff; border-radius: 50%; width: 30px; height: 30px; padding: 3px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); flex-shrink: 0;"><img alt="Logo Seminar Kit Jogja" src="assets/img/logo-seminarkitjogja.webp?v=4" style="height: 100%; width: 100%; object-fit: contain;"/></div><h1 class="sitename" style="font-size:1.2rem; font-weight:700; letter-spacing:0.5px; margin-left:8px; margin-bottom:0;">Seminar Kit Jogja</h1></a>
+<a class="logo d-flex align-items-center ms-3 ms-lg-5" href="index.html" style="flex-shrink:0; margin-left: 5vw;"><div style="background-color: #ffffff; border-radius: 50%; width: 30px; height: 30px; padding: 3px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); flex-shrink: 0;"><img alt="Logo Seminar Kit Jogja" src="assets/img/logo-seminarkitjogja.webp?v=4" width="30" height="30" style="height: 100%; width: 100%; object-fit: contain;"/></div><span class="sitename" style="font-size:1.2rem; font-weight:700; letter-spacing:0.5px; margin-left:8px; margin-bottom:0;">Seminar Kit Jogja</span></a>
 <nav class="navmenu" id="navmenu">
 <ul>
 <li><a href="index.html">Beranda</a></li>
@@ -134,114 +134,105 @@
 </div>
 <section class="section">
 <div class="container">
-<div class="row g-4"><div class="col-lg-4 col-md-6" data-aos="fade-up">
-<div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
-<div class="position-relative">
-<img alt="Paket Seminar Kit Basic Yogyakarta" class="card-img-top" src="assets/img/paket/seminar-kit-basic.webp" style="object-fit:cover; aspect-ratio: 4/3;"/>
-<span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Acara Kampus</span>
-</div>
-<div class="card-body p-4 d-flex flex-column">
-<h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-seminar-kit-basic.html" style="color:inherit;text-decoration:none;">Paket Seminar Kit Basic</a></h4>
-<p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7;">Paket ekonomis untuk event skala besar. Tas spunbond, pulpen sablon, blocknote A5, dan ID card kertas.</p>
-<div class="mt-auto">
+<div class="row g-4 justify-content-center">
 
-<a class="btn w-100 fw-bold py-2" href="detail/paket-seminar-kit-basic.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6" data-aos="fade-up">
-<div class="card h-100 border-0 shadow-sm overflow-hidden position-relative" style="border-radius: 14px; border: 2px solid #1a2035 !important;">
+  <div class="col-lg-4 col-md-6">
+    <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
+      <div class="position-relative">
+        <img alt="Paket Seminar Kit Basic Yogyakarta" class="card-img-top" width="800" height="600" src="assets/img/paket/seminar-kit-basic.webp" style="object-fit:cover; aspect-ratio: 4/3; width: 100%; height: auto;" fetchpriority="high" loading="eager"/>
+        <span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Acara Kampus</span>
+      </div>
+      <div class="card-body p-4 d-flex flex-column">
+        <h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-seminar-kit-basic.html" style="color:inherit;text-decoration:none;">Paket Seminar Kit Basic</a></h4>
+        <p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7; flex-grow:1;">Paket ekonomis untuk event skala besar. Tas spunbond, pulpen sablon, blocknote A5, dan ID card kertas.</p>
+        <a class="btn w-100 fw-bold py-2" href="detail/paket-seminar-kit-basic.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
+      </div>
+    </div>
+  </div>
 
-<div class="position-relative">
-<img alt="Paket Seminar Kit Standard Yogyakarta" class="card-img-top" src="assets/img/paket/seminar-kit-standard.webp" style="object-fit:cover; aspect-ratio: 4/3;"/>
-<span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Pelatihan Karyawan</span>
-</div>
-<div class="card-body p-4 d-flex flex-column">
-<h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-seminar-kit-standard.html" style="color:inherit;text-decoration:none;">Paket Seminar Kit Standard</a></h4>
-<p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7;">Pilihan favorit untuk event korporat. Totebag canvas, notebook spiral, pulpen metal premium, dan lanyard eksklusif.</p>
-<div class="mt-auto">
+  <div class="col-lg-4 col-md-6">
+    <div class="card h-100 border-0 shadow-sm overflow-hidden position-relative" style="border-radius: 14px; border: 2px solid #1a2035 !important;">
+      <div class="position-relative">
+        <img alt="Paket Seminar Kit Standard Yogyakarta" class="card-img-top" width="800" height="600" src="assets/img/paket/seminar-kit-standard.webp" style="object-fit:cover; aspect-ratio: 4/3; width: 100%; height: auto;" loading="lazy"/>
+        <span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Pelatihan Karyawan</span>
+      </div>
+      <div class="card-body p-4 d-flex flex-column">
+        <h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-seminar-kit-standard.html" style="color:inherit;text-decoration:none;">Paket Seminar Kit Standard</a></h4>
+        <p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7; flex-grow:1;">Pilihan favorit untuk event korporat. Totebag canvas, notebook spiral, pulpen metal premium, dan lanyard eksklusif.</p>
+        <a class="btn w-100 fw-bold py-2" href="detail/paket-seminar-kit-standard.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
+      </div>
+    </div>
+  </div>
 
-<a class="btn w-100 fw-bold py-2" href="detail/paket-seminar-kit-standard.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6" data-aos="fade-up">
-<div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
-<div class="position-relative">
-<img alt="Paket Seminar Kit Premium Yogyakarta" class="card-img-top" src="assets/img/paket/seminar-kit-premium.webp" style="object-fit:cover; aspect-ratio: 4/3;"/>
-<span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Klien VIP &amp; Eksekutif</span>
-</div>
-<div class="card-body p-4 d-flex flex-column">
-<h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-seminar-kit-premium.html" style="color:inherit;text-decoration:none;">Paket Seminar Kit Premium</a></h4>
-<p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7;">Paket eksklusif untuk tamu VIP. Pouch kulit elegan, agenda magnet, tumbler grafir mewah, dan flashdisk custom.</p>
-<div class="mt-auto">
+  <div class="col-lg-4 col-md-6">
+    <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
+      <div class="position-relative">
+        <img alt="Paket Seminar Kit Premium Yogyakarta" class="card-img-top" width="800" height="600" src="assets/img/paket/seminar-kit-premium.webp" style="object-fit:cover; aspect-ratio: 4/3; width: 100%; height: auto;" loading="lazy"/>
+        <span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Klien VIP &amp; Eksekutif</span>
+      </div>
+      <div class="card-body p-4 d-flex flex-column">
+        <h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-seminar-kit-premium.html" style="color:inherit;text-decoration:none;">Paket Seminar Kit Premium</a></h4>
+        <p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7; flex-grow:1;">Paket eksklusif untuk tamu VIP. Pouch kulit elegan, agenda magnet, tumbler grafir mewah, dan flashdisk custom.</p>
+        <a class="btn w-100 fw-bold py-2" href="detail/paket-seminar-kit-premium.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
+      </div>
+    </div>
+  </div>
 
-<a class="btn w-100 fw-bold py-2" href="detail/paket-seminar-kit-premium.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6" data-aos="fade-up">
-<div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
-<div class="position-relative">
-<img alt="Paket Corporate Gift Instansi Yogyakarta" class="card-img-top" src="assets/img/paket/corporate-gift-instansi.webp" style="object-fit:cover; aspect-ratio: 4/3;"/>
-<span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Instansi &amp; BUMN</span>
-</div>
-<div class="card-body p-4 d-flex flex-column">
-<h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-corporate-gift-instansi.html" style="color:inherit;text-decoration:none;">Paket Corporate Gift Instansi</a></h4>
-<p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7;">Paket pengadaan corporate gift untuk kebutuhan instansi pemerintah dan BUMN. Lengkap dengan legalitas PKP.</p>
-<div class="mt-auto">
+  <div class="col-lg-4 col-md-6">
+    <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
+      <div class="position-relative">
+        <img alt="Paket Corporate Gift Instansi Yogyakarta" class="card-img-top" width="800" height="600" src="assets/img/paket/corporate-gift-instansi.webp" style="object-fit:cover; aspect-ratio: 4/3; width: 100%; height: auto;" loading="lazy"/>
+        <span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Instansi &amp; BUMN</span>
+      </div>
+      <div class="card-body p-4 d-flex flex-column">
+        <h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-corporate-gift-instansi.html" style="color:inherit;text-decoration:none;">Paket Corporate Gift Instansi</a></h4>
+        <p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7; flex-grow:1;">Paket pengadaan corporate gift untuk kebutuhan instansi pemerintah dan BUMN. Lengkap dengan legalitas PKP.</p>
+        <a class="btn w-100 fw-bold py-2" href="detail/paket-corporate-gift-instansi.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
+      </div>
+    </div>
+  </div>
 
-<a class="btn w-100 fw-bold py-2" href="detail/paket-corporate-gift-instansi.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6" data-aos="fade-up">
-<div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
-<div class="position-relative">
-<img alt="Paket Hampers Hari Raya Yogyakarta" class="card-img-top" src="assets/img/paket/hampers-hari-raya.webp" style="object-fit:cover; aspect-ratio: 4/3;"/>
-<span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Lebaran &amp; Natal</span>
-</div>
-<div class="card-body p-4 d-flex flex-column">
-<h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-hampers-hari-raya.html" style="color:inherit;text-decoration:none;">Paket Hampers Hari Raya</a></h4>
-<p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7;">Hampers eksklusif untuk momen hari raya. Dikemas dalam box premium dengan pita elegan dan kartu ucapan.</p>
-<div class="mt-auto">
+  <div class="col-lg-4 col-md-6">
+    <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
+      <div class="position-relative">
+        <img alt="Paket Hampers Hari Raya Yogyakarta" class="card-img-top" width="800" height="600" src="assets/img/paket/hampers-hari-raya.webp" style="object-fit:cover; aspect-ratio: 4/3; width: 100%; height: auto;" loading="lazy"/>
+        <span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Lebaran &amp; Natal</span>
+      </div>
+      <div class="card-body p-4 d-flex flex-column">
+        <h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-hampers-hari-raya.html" style="color:inherit;text-decoration:none;">Paket Hampers Hari Raya</a></h4>
+        <p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7; flex-grow:1;">Hampers eksklusif untuk momen hari raya. Dikemas dalam box premium dengan pita elegan dan kartu ucapan.</p>
+        <a class="btn w-100 fw-bold py-2" href="detail/paket-hampers-hari-raya.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
+      </div>
+    </div>
+  </div>
 
-<a class="btn w-100 fw-bold py-2" href="detail/paket-hampers-hari-raya.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6" data-aos="fade-up">
-<div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
-<div class="position-relative">
-<img alt="Paket Souvenir Onboarding Yogyakarta" class="card-img-top" src="assets/img/paket/souvenir-onboarding.webp" style="object-fit:cover; aspect-ratio: 4/3;"/>
-<span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Onboarding Karyawan</span>
-</div>
-<div class="card-body p-4 d-flex flex-column">
-<h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-souvenir-onboarding.html" style="color:inherit;text-decoration:none;">Paket Souvenir Onboarding</a></h4>
-<p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7;">Welcome kit lengkap untuk karyawan baru. Agenda kerja, pulpen metal, tumbler custom, dan lanyard ID card.</p>
-<div class="mt-auto">
+  <div class="col-lg-4 col-md-6">
+    <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 14px;">
+      <div class="position-relative">
+        <img alt="Paket Souvenir Onboarding Yogyakarta" class="card-img-top" width="800" height="600" src="assets/img/paket/souvenir-onboarding.webp" style="object-fit:cover; aspect-ratio: 4/3; width: 100%; height: auto;" loading="lazy"/>
+        <span class="position-absolute bottom-0 start-0 m-3 px-3 py-1" style="background-color:rgba(26,32,53,0.45); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); color:#fff; font-size:0.82rem; font-weight:600; border-radius:6px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">Cocok untuk: Onboarding Karyawan</span>
+      </div>
+      <div class="card-body p-4 d-flex flex-column">
+        <h4 class="fw-bold mb-2" style="color:#1a2035; font-size:1.2rem; font-family: 'Poppins', sans-serif;"><a href="detail/paket-souvenir-onboarding.html" style="color:inherit;text-decoration:none;">Paket Souvenir Onboarding</a></h4>
+        <p class="text-muted mb-4" style="font-size:0.93rem; line-height:1.7; flex-grow:1;">Welcome kit lengkap untuk karyawan baru. Agenda kerja, pulpen metal, tumbler custom, dan lanyard ID card.</p>
+        <a class="btn w-100 fw-bold py-2" href="detail/paket-souvenir-onboarding.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
+      </div>
+    </div>
+  </div>
 
-<a class="btn w-100 fw-bold py-2" href="detail/paket-souvenir-onboarding.html" style="background-color:#1a2035; color:#fff; border-radius:30px;"><i class="bi bi-info-circle me-2"></i> Lihat Detail Paket</a>
-</div>
-</div>
-</div>
-</div></div>
-</div>
+</div><!-- /.row -->
+</div><!-- /container -->
 </section>
+
 <!-- Call To Action Section -->
 <section class="call-to-action section dark-background" id="call-to-action">
-<img alt="Cta Bg" src="assets/img/cta-bg.webp"/>
+<img alt="Cta Bg" src="assets/img/cta-bg.webp" width="1920" height="600" loading="lazy"/>
 <div class="container">
 <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
 <div class="col-xl-10">
 <div class="text-center">
 <h3 class="fw-bold">Bingung Memilih Paket yang Tepat?</h3>
-<p class="fs-5 mt-3 mb-4">Konsultasikan skala acara dan budget Anda, kami bantu racik paket seminar kit yang paling optimal.</p>
+<p class="fs-5 mt-3 mb-4">Hubungi kami dan kami bantu pilihkan paket terbaik untuk acara Anda.</p>
 <a class="btn btn-whatsapp btn-lg" href="https://wa.me/6288989643555?text=Halo%20Seminar%20Kit%20Jogja,%20saya%20tertarik%20dengan%20layanan%20Anda." target="_blank"><i class="bi bi-whatsapp me-2"></i> Chat WhatsApp Sekarang</a>
 </div>
 </div>
@@ -254,7 +245,7 @@
 <div class="row gy-5">
 <!-- Col 1: Logo + About + Sosmed -->
 <div class="col-lg-4 col-md-6 text-center text-md-start" style="padding-top:1.2rem;">
-<a class="d-inline-flex align-items-center justify-content-center justify-content-md-start gap-2 mb-4 text-decoration-none" href="index.html"><div style="background-color: #ffffff; border-radius: 50%; width: 44px; height: 44px; padding: 4px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0,0,0,0.08); flex-shrink: 0;"><img alt="Logo Seminar Kit Jogja" src="assets/img/logo-seminarkitjogja.webp?v=3" style="height: 100%; width: 100%; object-fit: contain;"/></div><span style="font-size:1.2rem; font-weight:700; color:#ffffff; font-family:var(--heading-font); letter-spacing:0.5px; margin-left:10px;">SEMINAR KIT JOGJA</span></a>
+<a class="d-inline-flex align-items-center justify-content-center justify-content-md-start gap-2 mb-4 text-decoration-none" href="index.html"><div style="background-color: #ffffff; border-radius: 50%; width: 44px; height: 44px; padding: 4px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0,0,0,0.08); flex-shrink: 0;"><img alt="Logo Seminar Kit Jogja" src="assets/img/logo-seminarkitjogja.webp?v=3" width="30" height="30" style="height: 100%; width: 100%; object-fit: contain;"/></div><span style="font-size:1.2rem; font-weight:700; color:#ffffff; font-family:var(--heading-font); letter-spacing:0.5px; margin-left:10px;">SEMINAR KIT JOGJA</span></a>
 <p class="mb-4" style="font-size:0.9rem; line-height:1.7; color:rgba(255,255,255,0.82);">
             Vendor terpercaya pengadaan seminar kit, souvenir kantor, dan corporate gift custom logo untuk instansi pemerintah, pendidikan, dan perusahaan swasta di Yogyakarta.
           </p>
